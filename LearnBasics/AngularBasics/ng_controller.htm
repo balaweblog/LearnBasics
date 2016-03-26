@@ -1,0 +1,21 @@
+<html>
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js">
+</script>
+<body>
+	<div ng-app="myApp" ng-controller="myCtrl">
+	<p>first name</p> <input type ="text" ng-model ="firstname"></input> 
+	<p>last name </p><input type ="text" ng-model ="lastname"></input>
+	<p> your first name is</p> <p ng-bind="firstname"></p> 
+	<p> your last name is  </p><p ng-bind="lastname">
+	</div>
+
+<script>
+var app = angular.module('myApp', []);
+app.controller('myCtrl', function($scope) {
+    $scope.firstname= "John";
+    $scope.lastname= "Doe";
+});
+
+</script>
+</body>
+</html>
