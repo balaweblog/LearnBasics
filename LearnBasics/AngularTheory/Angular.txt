@@ -55,4 +55,13 @@ AngularJS expressions can contain literals, operators, and variables.
  AngularJS expressions do not support conditionals, loops, and exceptions, while JavaScript expressions do.
 AngularJS expressions support filters, while JavaScript expressions do not.
 
+Angular js Modules
+---------------------
+An AngularJS module defines an application.
+
+The module is a container for the different parts of an application.
+
+The module is a container for the application controllers.
+
+Controllers always belong to a module
 
