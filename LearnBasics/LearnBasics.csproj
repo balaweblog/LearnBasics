@@ -66,6 +66,9 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="AngularBasics\app.js" />
+    <Content Include="AngularBasics\controller.js" />
+    <Content Include="AngularBasics\mvcbasecoding.html" />
     <Content Include="AngularBasics\ng_expression.htm" />
     <Content Include="AngularBasics\ng_init.htm" />
     <Content Include="AngularBasics\ng_basics.htm" />

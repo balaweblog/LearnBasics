@@ -65,3 +65,22 @@ The module is a container for the application controllers.
 
 Controllers always belong to a module
 
+
+Angular js Directives
+----------------------
+
+Angular js is full of directives.AngularJS has a set of built-in directives which you can use to add functionality to your application.
+
+directive if it returns that ie it wont execute any further angular code based on html line by line fetch. ng_module.html has it
+
+
+Functions can Pollute the Global Namespace
+Global functions should be avoided in JavaScript. They can easily be overwritten or destroyed by other scripts.
+
+AngularJS modules reduces this problem, by keeping all functions local to the module.
+
+it is recommended that you load the AngularJS library either in the <head> or at the start of the <body>.
+This is because calls to angular.module can only be compiled after the library has been loaded.
+
+
+

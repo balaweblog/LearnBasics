@@ -7,8 +7,24 @@
 	<meta charset="utf-8" />
 </head>
 <body>
-        <div ng-app="">
+    <script>
+        var app = angular.module("test", []);
+        app.controller("testcont",function($scope)
+        {
+            $scope.firstname = "balamurugan";
+        });
+        var app1 = angular.module("rout", []);
+        app1.directive("wtest", function () {
+            return { template: "welcome to india" };
+        });
+
+    </script>
+        <div ng-app="rout" wtest>
 
         </div>
+        <div ng-app="test" ng-controller="testcont">
+            <p> <p>your name is </p><p>{{firstname}}</p> </p>
+        </div>
+    
 </body>
 </html>
